@@ -31,7 +31,7 @@ function dateSample(sampleActivityString) {
   return false;
 }
 
-console.log(dateSample("9000"));
+// console.log(dateSample("9000"));
 
 module.exports = {
   dateSample,

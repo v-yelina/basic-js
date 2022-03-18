@@ -38,14 +38,6 @@ const chainMaker = {
   },
 };
 
-console.log(
-  chainMaker
-    .addLink(function () {})
-    .addLink("2nd")
-    .addLink("3rd")
-    .reverseChain()
-    .finishChain()
-);
 module.exports = {
   chainMaker,
 };

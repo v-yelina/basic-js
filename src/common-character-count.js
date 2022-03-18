@@ -18,7 +18,7 @@ function getCommonCharacterCount(s1, s2) {
     if (sRes.indexOf(s1[i]) !== -1) {
       count += 1;
       sRes = sRes.replace(sRes[sRes.indexOf(s1[i])], "");
-      console.log(sRes);
+      // console.log(sRes);
     }
   }
   return count;
