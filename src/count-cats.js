@@ -16,7 +16,6 @@ const { NotImplementedError } = require("../extensions/index.js");
  */
 function countCats(arr) {
   let count = 0;
-  // remove line with error and write your code here
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
       if (arr[i][j] === "^^") {
